@@ -36,13 +36,7 @@ int main()
  cout << "Enter Unique ID :\n";
  cin >> oid;
  cout << "Enter Pin Code:" << "( Must be 4 characters)\n" ;
- for (i=0,i<4;i++)
-{
- ch=getch();
- pin[i]=ch;
- ch='*';
- cout << ch;
-} pin[i]='\0';
+ cin >> pin;
  
  if (oid !=50469435 || pin !=setpin)
  {
