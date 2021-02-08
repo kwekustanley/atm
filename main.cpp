@@ -27,15 +27,22 @@ int main()
  cin >> setpin;
  cout << "  \n";
  cout << " Your Account has been Created successfully.\n";
- cout << "   Your Unique ID is:" << "  504\n";
+ cout << "   Your Unique ID is:" << "  50469435\n";
 
- int oid=504;
- double pin;
+ int oid=50469435;
+ char pin;
  login:
  cout << "**ATM LOGIN**\n";
  cout << "Enter Unique ID :\n";
  cin >> oid;
- cout << "Enter Pin Code:\n";
+ cout << "Enter Pin Code:" << "( Must be 4 characters)\n" ;
+ for (i=0,i<4;i++)
+{
+ ch=getch();
+ password[i]=ch;
+ ch='*';
+ cout << ch;
+} password[i]='\0';
  cin >> pin;
  if (oid !=504 || pin !=setpin)
  {
