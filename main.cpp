@@ -39,12 +39,12 @@ int main()
  for (i=0,i<4;i++)
 {
  ch=getch();
- password[i]=ch;
+ pin[i]=ch;
  ch='*';
  cout << ch;
-} password[i]='\0';
- cin >> pin;
- if (oid !=504 || pin !=setpin)
+} pin[i]='\0';
+ 
+ if (oid !=50469435 || pin !=setpin)
  {
  cout << " \n";
  cout << " Sorry Invalid ID or Pin \n";
