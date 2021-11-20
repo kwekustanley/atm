@@ -23,10 +23,10 @@ int main()
  cin >> phone;
  cout << " Account Number to be linked to card:\n";
  cin >> actno;
- cout << "Set your ATM pin code:\n";
+ cout << "Set your ATM pin code: << "( Must be 4 characters) \n";
  cin >> setpin;
  cout << "  \n";
- cout << " Your Account has been Created successfully.\n";
+ cout << " Your Account has been created successfully.\n";
  cout << "   Your Unique ID is:" << "  50469435\n";
 
  int oid=50469435;
@@ -35,14 +35,8 @@ int main()
  cout << "**ATM LOGIN**\n";
  cout << "Enter Unique ID :\n";
  cin >> oid;
- cout << "Enter Pin Code:" << "( Must be 4 characters)\n" ;
- for (i=0,i<4;i++)
-{
- ch=getch();
- pin[i]=ch;
- ch='*';
- cout << ch;
-} pin[i]='\0';
+ cout << "Enter Pin Code:\n" ;
+ cin >> pin;
  
  if (oid !=50469435 || pin !=setpin)
  {
