@@ -13,21 +13,21 @@ int main()
     double actno;
     double setpin;
 
- cout << " ----GARZO BANK---- \n" << "--ATM Registration-- \n";
+ cout << "\t\t\t\t----GARZO BANK---- \n" << "\t\t\t\t--ATM Registration-- \n";
  cout << " \n";
- cout << " Customer's Fullname:\n";
+ cout << "Customer's Fullname:\n";
  getline(cin,fullname);
- cout << " Name to be printed on ATM Card:\n";
+ cout << "Name to be printed on ATM Card:\n";
  getline(cin,atmname);
- cout << " Mobile Number for ATM transaction alerts:\n";
+ cout << "Mobile Number for ATM transaction alerts:\n";
  cin >> phone;
- cout << " Account Number to be linked to card:\n";
+ cout << "Account Number to be linked to card:\n";
  cin >> actno;
- cout << "Set your ATM pin code: << "( Must be 4 characters) \n";
+ cout << "Set your ATM pin code: "<< "( Must be 4 characters) \n";
  cin >> setpin;
  cout << "  \n";
  cout << " Your Account has been created successfully.\n";
- cout << "   Your Unique ID is:" << "  50469435\n";
+ cout << " Your Unique ID is:" << "  50469435\n";
 
  int oid=50469435;
  char pin;
@@ -37,7 +37,7 @@ int main()
  cin >> oid;
  cout << "Enter Pin Code:\n" ;
  cin >> pin;
- 
+
  if (oid !=50469435 || pin !=setpin)
  {
  cout << " \n";
